@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     background: #F2F2F2;
-    height: 1300px;
+    min-height: 100vh;
 }
 
 .top-card{
@@ -63,7 +63,8 @@ body{
 
 .all-cards{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-bottom: 78px;
 }
 
 
@@ -77,18 +78,14 @@ body{
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
     border-radius: 8px;
     margin-top: 76px;
-    position: absolute;
-    z-index: 1;
+    overflow: hidden;
 }
 
 .supervisor-green{
     background: #44D3D2;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    height: 222px;
-    width: 311px;
-    border-radius: 8px;
-    position: absolute;
-    margin-top: 72px;
+    height: 4px;
+    width: 100%;
 }
 
 .supervisor span,
@@ -146,19 +143,15 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
     border-radius: 8px;
-    margin-top: 323px;
-    position: absolute;
-    z-index: 1;
+    margin-top: 25px;
+    overflow: hidden;
 }
 
 .team-builder_red{
     background: #EA5454;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    height: 222px;
-    width: 311px;
-    border-radius: 8px;
-    position: absolute;
-    margin-top: 319px;
+    height: 4px;
+    width: 100%;
 }
 
 
@@ -172,20 +165,16 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
     border-radius: 8px;
-    margin-top: 568px;
-    position: absolute;
-    z-index: 1;
+    margin-top: 23px;
+    overflow: hidden;
 }
 
 
 .karma_orange{
-    background: #EA5454;
+    background: #FCAE4A;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    height: 222px;
-    width: 311px;
-    border-radius: 8px;
-    position: absolute;
-    margin-top: 564px;
+    height: 4px;
+    width: 100%;
 }
 
 
@@ -199,20 +188,15 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
     border-radius: 8px;
-    margin-top: 814px;
-    position: absolute;
-    z-index: 1;
-    margin-bottom: 78px;
+    margin-top: 25px;
+    overflow: hidden;
 }
 
 
 .calculator_blue{
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    height: 222px;
-    width: 311px;
-    border-radius: 8px;
-    position: absolute;
-    margin-top: 810px;
+    height: 4px;
+    width: 100%;
     background: #549EF2;
 }
 
@@ -227,7 +211,30 @@ body{
 
 
 
+
+
+
+
+
 @media screen and (min-width: 1440px){
-    
+    .supervisor{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 222px;
+        width: 311px;
+        background: #FFFFFF;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        border-radius: 8px;
+        margin-top: 76px;
+    }
+
+
+    .supervisor-green{
+        background: #44D3D2;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+        height: 4px;
+        width: 100%;
+    }
 }
 
