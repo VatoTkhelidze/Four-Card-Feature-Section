@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
 
 
 
@@ -9,3 +9,148 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+}
+
+.top-card{
+    margin-top: 85px;
+}
+
+
+.reliable{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+    text-align: center;
+}
+
+
+.powered-by-technology{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+
+
+.top-small-info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+
+.all-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.supervisor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 222px;
+    width: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    margin-top: 76px;
+    position: absolute;
+    z-index: 1;
+}
+
+.supervisor-green{
+    background: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 72px;
+}
+
+.supervisor span,
+.team-builder span{
+    margin-top: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    padding-left: 28px;
+}
+
+.supervisor-info,
+.team-builder-info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding-left: 29px;
+}
+
+
+.supervisor-img,
+.team-builder-img{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 28px;
+    margin-top: 33px;
+}
+
+
+
+
+
+.team-builder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 222px;
+    width: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    margin-top: 323px;
+    position: absolute;
+    z-index: 1;
+}
+
+.team-builder_red{
+    background: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 319px;
+}
+
