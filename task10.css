@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+.top-small-info-desktop{
+    display: none;
+}
+
 
 body{
     display: flex;
@@ -217,24 +221,81 @@ body{
 
 
 @media screen and (min-width: 1440px){
-    .supervisor{
+
+    .powered-by-technology{
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+
+    .reliable{
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+
+.top-small-info{
+    display: none;
+}
+
+.top-small-info-desktop{
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+    
+
+
+
+
+
+
+
+
+
+    .all-cards{
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        height: 222px;
-        width: 311px;
-        background: #FFFFFF;
-        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-        border-radius: 8px;
-        margin-top: 76px;
+        flex-direction: row;
+        padding-bottom: 78px;
+        align-items: center;
     }
 
 
-    .supervisor-green{
-        background: #44D3D2;
-        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-        height: 4px;
-        width: 100%;
+    .middle-container{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 64px;
+    }
+
+    .supervisor{
+        margin: 0;
+        height: 250px;
+        width: 350px;
+    }
+
+    .team-builder{
+        margin: 0;
+        height: 250px;
+        width: 350px;
+    }
+
+    .calculator{
+        margin: 0;
+        height: 250px;
+        width: 350px;
+    }
+
+    .karma{
+        height: 250px;
+        width: 350px;
     }
 }
 
