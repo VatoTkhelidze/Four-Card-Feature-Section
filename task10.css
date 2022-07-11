@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     background: #F2F2F2;
+    height: 1300px;
 }
 
 .top-card{
@@ -91,7 +92,9 @@ body{
 }
 
 .supervisor span,
-.team-builder span{
+.team-builder span,
+.karma span,
+.calculator span{
     margin-top: 27px;
     font-family: 'Poppins';
     font-style: normal;
@@ -103,7 +106,9 @@ body{
 }
 
 .supervisor-info,
-.team-builder-info{
+.team-builder-info,
+.karma-info,
+.calculator-info{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -118,7 +123,9 @@ body{
 
 
 .supervisor-img,
-.team-builder-img{
+.team-builder-img,
+.karma-img,
+.calculator-img{
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -152,5 +159,75 @@ body{
     border-radius: 8px;
     position: absolute;
     margin-top: 319px;
+}
+
+
+
+.karma{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 222px;
+    width: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    margin-top: 568px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.karma_orange{
+    background: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 564px;
+}
+
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 222px;
+    width: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    margin-top: 814px;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 78px;
+}
+
+
+.calculator_blue{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 810px;
+    background: #549EF2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px){
+    
 }
 
